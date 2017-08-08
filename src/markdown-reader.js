@@ -1,5 +1,6 @@
 function markDownParser(markdown){
-  return markdown
+  console.log(markdown.split('\n'));
+  return markdown.split(/[\r?\n]+/)
 }
 
 
